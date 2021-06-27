@@ -1,10 +1,10 @@
 import random
 
 print("Hello! In this game, the computer chooses a number between 1 and 10")
-print("and you have to guess it. You have 5 chances. Can you guess the number?")
+print("and you have to guess it. You have 3 chances. Can you guess the number?")
 print("If you do not enter a number, the game will not work.")
 number = random.randint(1,10)
-chances = 5
+chances = 3
 while chances > 0:
   print("You have " + str(chances) + " chance(s) left.")
   guess = int(input("Enter your guess: "))
